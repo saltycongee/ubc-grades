@@ -1,0 +1,8 @@
+{
+	"title": "incorrectFormatting",
+	"input": {
+		"Bad Fomatting": ":)"
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

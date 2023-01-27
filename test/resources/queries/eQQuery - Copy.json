@@ -1,0 +1,32 @@
+{
+	"title": "EQQuery",
+	"input": {
+		"WHERE": {
+			"EQ": {
+				"courses_avg": 50
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"courses_dept",
+				"courses_avg"
+			],
+			"ORDER": "courses_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"courses_dept": "psyc",
+			"courses_avg": 50
+		},
+		{
+			"courses_dept": "chbe",
+			"courses_avg": 50
+		},
+		{
+			"courses_dept": "busi",
+			"courses_avg": 50
+		}
+	]
+}

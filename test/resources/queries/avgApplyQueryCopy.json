@@ -1,0 +1,141 @@
+{
+	"title": "avgApplyQuery",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"ubcRooms_seats": 150
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"ubcRooms_shortname",
+				"maxSeats"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"maxSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"ubcRooms_shortname"
+			],
+			"APPLY": [
+				{
+					"maxSeats": {
+						"AVG": "ubcRooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"ubcRooms_shortname": "IBLC",
+			"maxSeats": 154
+		},
+		{
+			"ubcRooms_shortname": "FRDM",
+			"maxSeats": 160
+		},
+		{
+			"ubcRooms_shortname": "DMP",
+			"maxSeats": 160
+		},
+		{
+			"ubcRooms_shortname": "SWNG",
+			"maxSeats": 188.75
+		},
+		{
+			"ubcRooms_shortname": "LSK",
+			"maxSeats": 194
+		},
+		{
+			"ubcRooms_shortname": "CHBE",
+			"maxSeats": 200
+		},
+		{
+			"ubcRooms_shortname": "MCML",
+			"maxSeats": 200
+		},
+		{
+			"ubcRooms_shortname": "PHRM",
+			"maxSeats": 201.5
+		},
+		{
+			"ubcRooms_shortname": "HENN",
+			"maxSeats": 206
+		},
+		{
+			"ubcRooms_shortname": "MATH",
+			"maxSeats": 224
+		},
+		{
+			"ubcRooms_shortname": "GEOG",
+			"maxSeats": 225
+		},
+		{
+			"ubcRooms_shortname": "BIOL",
+			"maxSeats": 228
+		},
+		{
+			"ubcRooms_shortname": "BUCH",
+			"maxSeats": 228
+		},
+		{
+			"ubcRooms_shortname": "FSC",
+			"maxSeats": 250
+		},
+		{
+			"ubcRooms_shortname": "CHEM",
+			"maxSeats": 252.5
+		},
+		{
+			"ubcRooms_shortname": "ANGU",
+			"maxSeats": 260
+		},
+		{
+			"ubcRooms_shortname": "SCRF",
+			"maxSeats": 280
+		},
+		{
+			"ubcRooms_shortname": "SRC",
+			"maxSeats": 299
+		},
+		{
+			"ubcRooms_shortname": "WESB",
+			"maxSeats": 325
+		},
+		{
+			"ubcRooms_shortname": "WOOD",
+			"maxSeats": 342
+		},
+		{
+			"ubcRooms_shortname": "ESB",
+			"maxSeats": 350
+		},
+		{
+			"ubcRooms_shortname": "LSC",
+			"maxSeats": 350
+		},
+		{
+			"ubcRooms_shortname": "HEBB",
+			"maxSeats": 375
+		},
+		{
+			"ubcRooms_shortname": "CIRS",
+			"maxSeats": 426
+		},
+		{
+			"ubcRooms_shortname": "OSBO",
+			"maxSeats": 442
+		}
+	]
+}

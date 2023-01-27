@@ -1,0 +1,141 @@
+{
+	"title": "minApplyQuery",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"rooms_seats": 150
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"maxSeats"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"maxSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"maxSeats": {
+						"MIN": "rooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "IBLC",
+			"maxSeats": 154
+		},
+		{
+			"rooms_shortname": "HENN",
+			"maxSeats": 155
+		},
+		{
+			"rooms_shortname": "FRDM",
+			"maxSeats": 160
+		},
+		{
+			"rooms_shortname": "DMP",
+			"maxSeats": 160
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"maxSeats": 167
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"maxSeats": 181
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"maxSeats": 181
+		},
+		{
+			"rooms_shortname": "LSK",
+			"maxSeats": 183
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"maxSeats": 187
+		},
+		{
+			"rooms_shortname": "CHBE",
+			"maxSeats": 200
+		},
+		{
+			"rooms_shortname": "MCML",
+			"maxSeats": 200
+		},
+		{
+			"rooms_shortname": "MATH",
+			"maxSeats": 224
+		},
+		{
+			"rooms_shortname": "GEOG",
+			"maxSeats": 225
+		},
+		{
+			"rooms_shortname": "BIOL",
+			"maxSeats": 228
+		},
+		{
+			"rooms_shortname": "CHEM",
+			"maxSeats": 240
+		},
+		{
+			"rooms_shortname": "FSC",
+			"maxSeats": 250
+		},
+		{
+			"rooms_shortname": "ANGU",
+			"maxSeats": 260
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"maxSeats": 280
+		},
+		{
+			"rooms_shortname": "SRC",
+			"maxSeats": 299
+		},
+		{
+			"rooms_shortname": "WESB",
+			"maxSeats": 325
+		},
+		{
+			"rooms_shortname": "ESB",
+			"maxSeats": 350
+		},
+		{
+			"rooms_shortname": "LSC",
+			"maxSeats": 350
+		},
+		{
+			"rooms_shortname": "HEBB",
+			"maxSeats": 375
+		},
+		{
+			"rooms_shortname": "CIRS",
+			"maxSeats": 426
+		},
+		{
+			"rooms_shortname": "OSBO",
+			"maxSeats": 442
+		}
+	]
+}

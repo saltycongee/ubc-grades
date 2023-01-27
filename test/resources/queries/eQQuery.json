@@ -1,0 +1,35 @@
+{
+	"title": "EQQuery",
+	"input": {
+		"WHERE": {
+			"EQ": {
+				"sections_avg": 50
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": ["sections_dept"]
+			}
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 50
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 50
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 50
+		}
+	]
+}

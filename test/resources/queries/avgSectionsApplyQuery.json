@@ -1,0 +1,797 @@
+{
+	"title": "avgSectionsApplyQuery",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"sections_avg": 50
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"avgGrade"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"avgGrade"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept"
+			],
+			"APPLY": [
+				{
+					"avgGrade": {
+						"AVG": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "test",
+			"avgGrade": 60
+		},
+		{
+			"sections_dept": "vant",
+			"avgGrade": 68.31
+		},
+		{
+			"sections_dept": "rmst",
+			"avgGrade": 69.93
+		},
+		{
+			"sections_dept": "wrds",
+			"avgGrade": 70.28
+		},
+		{
+			"sections_dept": "busi",
+			"avgGrade": 70.83
+		},
+		{
+			"sections_dept": "math",
+			"avgGrade": 72.04
+		},
+		{
+			"sections_dept": "astu",
+			"avgGrade": 72.27
+		},
+		{
+			"sections_dept": "psyc",
+			"avgGrade": 72.62
+		},
+		{
+			"sections_dept": "phil",
+			"avgGrade": 72.7
+		},
+		{
+			"sections_dept": "fmst",
+			"avgGrade": 72.75
+		},
+		{
+			"sections_dept": "japn",
+			"avgGrade": 73.18
+		},
+		{
+			"sections_dept": "arcl",
+			"avgGrade": 73.32
+		},
+		{
+			"sections_dept": "laso",
+			"avgGrade": 73.52
+		},
+		{
+			"sections_dept": "geob",
+			"avgGrade": 73.56
+		},
+		{
+			"sections_dept": "fren",
+			"avgGrade": 73.66
+		},
+		{
+			"sections_dept": "engl",
+			"avgGrade": 73.96
+		},
+		{
+			"sections_dept": "nest",
+			"avgGrade": 74.18
+		},
+		{
+			"sections_dept": "hist",
+			"avgGrade": 74.21
+		},
+		{
+			"sections_dept": "chem",
+			"avgGrade": 74.31
+		},
+		{
+			"sections_dept": "clst",
+			"avgGrade": 74.31
+		},
+		{
+			"sections_dept": "poli",
+			"avgGrade": 74.31
+		},
+		{
+			"sections_dept": "span",
+			"avgGrade": 74.34
+		},
+		{
+			"sections_dept": "asia",
+			"avgGrade": 74.53
+		},
+		{
+			"sections_dept": "geog",
+			"avgGrade": 74.54
+		},
+		{
+			"sections_dept": "ital",
+			"avgGrade": 74.71
+		},
+		{
+			"sections_dept": "latn",
+			"avgGrade": 74.88
+		},
+		{
+			"sections_dept": "mdvl",
+			"avgGrade": 74.89
+		},
+		{
+			"sections_dept": "scie",
+			"avgGrade": 75.19
+		},
+		{
+			"sections_dept": "last",
+			"avgGrade": 75.47
+		},
+		{
+			"sections_dept": "wood",
+			"avgGrade": 75.57
+		},
+		{
+			"sections_dept": "stat",
+			"avgGrade": 75.75
+		},
+		{
+			"sections_dept": "elec",
+			"avgGrade": 75.79
+		},
+		{
+			"sections_dept": "clch",
+			"avgGrade": 75.84
+		},
+		{
+			"sections_dept": "fopr",
+			"avgGrade": 75.88
+		},
+		{
+			"sections_dept": "fist",
+			"avgGrade": 75.93
+		},
+		{
+			"sections_dept": "mtrl",
+			"avgGrade": 75.93
+		},
+		{
+			"sections_dept": "biol",
+			"avgGrade": 75.99
+		},
+		{
+			"sections_dept": "law",
+			"avgGrade": 76.21
+		},
+		{
+			"sections_dept": "itst",
+			"avgGrade": 76.26
+		},
+		{
+			"sections_dept": "korn",
+			"avgGrade": 76.34
+		},
+		{
+			"sections_dept": "astr",
+			"avgGrade": 76.36
+		},
+		{
+			"sections_dept": "comm",
+			"avgGrade": 76.37
+		},
+		{
+			"sections_dept": "econ",
+			"avgGrade": 76.39
+		},
+		{
+			"sections_dept": "chin",
+			"avgGrade": 76.45
+		},
+		{
+			"sections_dept": "soci",
+			"avgGrade": 76.46
+		},
+		{
+			"sections_dept": "apsc",
+			"avgGrade": 76.62
+		},
+		{
+			"sections_dept": "relg",
+			"avgGrade": 76.7
+		},
+		{
+			"sections_dept": "visa",
+			"avgGrade": 76.92
+		},
+		{
+			"sections_dept": "asic",
+			"avgGrade": 76.93
+		},
+		{
+			"sections_dept": "bala",
+			"avgGrade": 77.05
+		},
+		{
+			"sections_dept": "cogs",
+			"avgGrade": 77.06
+		},
+		{
+			"sections_dept": "fre",
+			"avgGrade": 77.26
+		},
+		{
+			"sections_dept": "coec",
+			"avgGrade": 77.54
+		},
+		{
+			"sections_dept": "anth",
+			"avgGrade": 77.55
+		},
+		{
+			"sections_dept": "cpsc",
+			"avgGrade": 77.58
+		},
+		{
+			"sections_dept": "apbi",
+			"avgGrade": 77.62
+		},
+		{
+			"sections_dept": "rgla",
+			"avgGrade": 77.64
+		},
+		{
+			"sections_dept": "fnis",
+			"avgGrade": 77.72
+		},
+		{
+			"sections_dept": "eosc",
+			"avgGrade": 77.74
+		},
+		{
+			"sections_dept": "hebr",
+			"avgGrade": 77.74
+		},
+		{
+			"sections_dept": "fhis",
+			"avgGrade": 77.76
+		},
+		{
+			"sections_dept": "arth",
+			"avgGrade": 77.87
+		},
+		{
+			"sections_dept": "bioc",
+			"avgGrade": 77.9
+		},
+		{
+			"sections_dept": "cpen",
+			"avgGrade": 77.94
+		},
+		{
+			"sections_dept": "cons",
+			"avgGrade": 77.98
+		},
+		{
+			"sections_dept": "urst",
+			"avgGrade": 78.08
+		},
+		{
+			"sections_dept": "phys",
+			"avgGrade": 78.21
+		},
+		{
+			"sections_dept": "fnh",
+			"avgGrade": 78.28
+		},
+		{
+			"sections_dept": "frst",
+			"avgGrade": 78.28
+		},
+		{
+			"sections_dept": "lled",
+			"avgGrade": 78.63
+		},
+		{
+			"sections_dept": "cnrs",
+			"avgGrade": 78.68
+		},
+		{
+			"sections_dept": "ling",
+			"avgGrade": 78.83
+		},
+		{
+			"sections_dept": "grek",
+			"avgGrade": 78.97
+		},
+		{
+			"sections_dept": "enph",
+			"avgGrade": 78.99
+		},
+		{
+			"sections_dept": "mech",
+			"avgGrade": 79
+		},
+		{
+			"sections_dept": "cohr",
+			"avgGrade": 79.07
+		},
+		{
+			"sections_dept": "chbe",
+			"avgGrade": 79.18
+		},
+		{
+			"sections_dept": "kin",
+			"avgGrade": 79.33
+		},
+		{
+			"sections_dept": "cens",
+			"avgGrade": 79.49
+		},
+		{
+			"sections_dept": "lfs",
+			"avgGrade": 79.51
+		},
+		{
+			"sections_dept": "micb",
+			"avgGrade": 79.53
+		},
+		{
+			"sections_dept": "germ",
+			"avgGrade": 79.69
+		},
+		{
+			"sections_dept": "grsj",
+			"avgGrade": 79.73
+		},
+		{
+			"sections_dept": "mine",
+			"avgGrade": 79.77
+		},
+		{
+			"sections_dept": "igen",
+			"avgGrade": 79.86
+		},
+		{
+			"sections_dept": "port",
+			"avgGrade": 79.99
+		},
+		{
+			"sections_dept": "musc",
+			"avgGrade": 80
+		},
+		{
+			"sections_dept": "civl",
+			"avgGrade": 80.02
+		},
+		{
+			"sections_dept": "arbc",
+			"avgGrade": 80.08
+		},
+		{
+			"sections_dept": "baac",
+			"avgGrade": 80.26
+		},
+		{
+			"sections_dept": "ursy",
+			"avgGrade": 80.36
+		},
+		{
+			"sections_dept": "ends",
+			"avgGrade": 80.61
+		},
+		{
+			"sections_dept": "appp",
+			"avgGrade": 80.7
+		},
+		{
+			"sections_dept": "punj",
+			"avgGrade": 81
+		},
+		{
+			"sections_dept": "fnel",
+			"avgGrade": 81.04
+		},
+		{
+			"sections_dept": "scan",
+			"avgGrade": 81.11
+		},
+		{
+			"sections_dept": "caps",
+			"avgGrade": 81.16
+		},
+		{
+			"sections_dept": "arch",
+			"avgGrade": 81.24
+		},
+		{
+			"sections_dept": "basc",
+			"avgGrade": 81.25
+		},
+		{
+			"sections_dept": "atsc",
+			"avgGrade": 81.26
+		},
+		{
+			"sections_dept": "dhyg",
+			"avgGrade": 81.27
+		},
+		{
+			"sections_dept": "pols",
+			"avgGrade": 81.3
+		},
+		{
+			"sections_dept": "bahr",
+			"avgGrade": 81.34
+		},
+		{
+			"sections_dept": "bapa",
+			"avgGrade": 81.4
+		},
+		{
+			"sections_dept": "russ",
+			"avgGrade": 81.51
+		},
+		{
+			"sections_dept": "ufor",
+			"avgGrade": 81.51
+		},
+		{
+			"sections_dept": "swed",
+			"avgGrade": 81.57
+		},
+		{
+			"sections_dept": "isci",
+			"avgGrade": 81.64
+		},
+		{
+			"sections_dept": "phar",
+			"avgGrade": 81.65
+		},
+		{
+			"sections_dept": "food",
+			"avgGrade": 81.66
+		},
+		{
+			"sections_dept": "envr",
+			"avgGrade": 81.7
+		},
+		{
+			"sections_dept": "bama",
+			"avgGrade": 81.92
+		},
+		{
+			"sections_dept": "pers",
+			"avgGrade": 82.01
+		},
+		{
+			"sections_dept": "ba",
+			"avgGrade": 82.02
+		},
+		{
+			"sections_dept": "fipr",
+			"avgGrade": 82.14
+		},
+		{
+			"sections_dept": "soil",
+			"avgGrade": 82.38
+		},
+		{
+			"sections_dept": "surg",
+			"avgGrade": 82.42
+		},
+		{
+			"sections_dept": "babs",
+			"avgGrade": 82.46
+		},
+		{
+			"sections_dept": "spha",
+			"avgGrade": 82.5
+		},
+		{
+			"sections_dept": "larc",
+			"avgGrade": 82.51
+		},
+		{
+			"sections_dept": "baen",
+			"avgGrade": 82.54
+		},
+		{
+			"sections_dept": "basm",
+			"avgGrade": 82.55
+		},
+		{
+			"sections_dept": "cics",
+			"avgGrade": 82.56
+		},
+		{
+			"sections_dept": "baul",
+			"avgGrade": 82.67
+		},
+		{
+			"sections_dept": "bams",
+			"avgGrade": 82.78
+		},
+		{
+			"sections_dept": "bafi",
+			"avgGrade": 82.79
+		},
+		{
+			"sections_dept": "thtr",
+			"avgGrade": 82.8
+		},
+		{
+			"sections_dept": "adhe",
+			"avgGrade": 82.94
+		},
+		{
+			"sections_dept": "bait",
+			"avgGrade": 83.04
+		},
+		{
+			"sections_dept": "crwr",
+			"avgGrade": 83.09
+		},
+		{
+			"sections_dept": "path",
+			"avgGrade": 83.22
+		},
+		{
+			"sections_dept": "dani",
+			"avgGrade": 83.57
+		},
+		{
+			"sections_dept": "rmes",
+			"avgGrade": 83.86
+		},
+		{
+			"sections_dept": "iwme",
+			"avgGrade": 84
+		},
+		{
+			"sections_dept": "nrsc",
+			"avgGrade": 84.2
+		},
+		{
+			"sections_dept": "educ",
+			"avgGrade": 84.21
+		},
+		{
+			"sections_dept": "medg",
+			"avgGrade": 84.22
+		},
+		{
+			"sections_dept": "phrm",
+			"avgGrade": 84.23
+		},
+		{
+			"sections_dept": "ceen",
+			"avgGrade": 84.25
+		},
+		{
+			"sections_dept": "hinu",
+			"avgGrade": 84.28
+		},
+		{
+			"sections_dept": "dent",
+			"avgGrade": 84.31
+		},
+		{
+			"sections_dept": "mrne",
+			"avgGrade": 84.41
+		},
+		{
+			"sections_dept": "arst",
+			"avgGrade": 84.48
+		},
+		{
+			"sections_dept": "nurs",
+			"avgGrade": 84.53
+		},
+		{
+			"sections_dept": "iar",
+			"avgGrade": 84.61
+		},
+		{
+			"sections_dept": "name",
+			"avgGrade": 84.63
+		},
+		{
+			"sections_dept": "libr",
+			"avgGrade": 84.73
+		},
+		{
+			"sections_dept": "sowk",
+			"avgGrade": 84.77
+		},
+		{
+			"sections_dept": "bmeg",
+			"avgGrade": 84.83
+		},
+		{
+			"sections_dept": "eced",
+			"avgGrade": 84.87
+		},
+		{
+			"sections_dept": "gpp",
+			"avgGrade": 84.89
+		},
+		{
+			"sections_dept": "anat",
+			"avgGrade": 84.9
+		},
+		{
+			"sections_dept": "gbpr",
+			"avgGrade": 84.9
+		},
+		{
+			"sections_dept": "sans",
+			"avgGrade": 84.92
+		},
+		{
+			"sections_dept": "jrnl",
+			"avgGrade": 84.93
+		},
+		{
+			"sections_dept": "pcth",
+			"avgGrade": 84.95
+		},
+		{
+			"sections_dept": "udes",
+			"avgGrade": 84.98
+		},
+		{
+			"sections_dept": "libe",
+			"avgGrade": 85.07
+		},
+		{
+			"sections_dept": "rsot",
+			"avgGrade": 85.27
+		},
+		{
+			"sections_dept": "obst",
+			"avgGrade": 85.35
+		},
+		{
+			"sections_dept": "eece",
+			"avgGrade": 85.39
+		},
+		{
+			"sections_dept": "info",
+			"avgGrade": 85.4
+		},
+		{
+			"sections_dept": "ccst",
+			"avgGrade": 85.76
+		},
+		{
+			"sections_dept": "rhsc",
+			"avgGrade": 85.99
+		},
+		{
+			"sections_dept": "hgse",
+			"avgGrade": 86.22
+		},
+		{
+			"sections_dept": "audi",
+			"avgGrade": 86.35
+		},
+		{
+			"sections_dept": "spph",
+			"avgGrade": 86.36
+		},
+		{
+			"sections_dept": "hunu",
+			"avgGrade": 86.47
+		},
+		{
+			"sections_dept": "lais",
+			"avgGrade": 86.52
+		},
+		{
+			"sections_dept": "cnto",
+			"avgGrade": 86.53
+		},
+		{
+			"sections_dept": "phth",
+			"avgGrade": 86.59
+		},
+		{
+			"sections_dept": "midw",
+			"avgGrade": 86.92
+		},
+		{
+			"sections_dept": "cnps",
+			"avgGrade": 87.04
+		},
+		{
+			"sections_dept": "sts",
+			"avgGrade": 87.25
+		},
+		{
+			"sections_dept": "bota",
+			"avgGrade": 87.4
+		},
+		{
+			"sections_dept": "medi",
+			"avgGrade": 87.4
+		},
+		{
+			"sections_dept": "edst",
+			"avgGrade": 87.61
+		},
+		{
+			"sections_dept": "fish",
+			"avgGrade": 87.64
+		},
+		{
+			"sections_dept": "plan",
+			"avgGrade": 87.66
+		},
+		{
+			"sections_dept": "gsat",
+			"avgGrade": 87.82
+		},
+		{
+			"sections_dept": "edcp",
+			"avgGrade": 88.38
+		},
+		{
+			"sections_dept": "chil",
+			"avgGrade": 88.92
+		},
+		{
+			"sections_dept": "zool",
+			"avgGrade": 88.98
+		},
+		{
+			"sections_dept": "etec",
+			"avgGrade": 89.05
+		},
+		{
+			"sections_dept": "cell",
+			"avgGrade": 89.14
+		},
+		{
+			"sections_dept": "biof",
+			"avgGrade": 89.77
+		},
+		{
+			"sections_dept": "onco",
+			"avgGrade": 89.82
+		},
+		{
+			"sections_dept": "epse",
+			"avgGrade": 89.94
+		},
+		{
+			"sections_dept": "aanb",
+			"avgGrade": 91.14
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"title": "EQFail",
+	"input": {
+		"WHERE": {
+			"EQ": {
+				"sections_fail": 70
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id",
+				"sections_fail"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "math",
+			"sections_id": "100",
+			"sections_fail": 70
+		},
+		{
+			"sections_dept": "phil",
+			"sections_id": "120",
+			"sections_fail": 70
+		},
+		{
+			"sections_dept": "phys",
+			"sections_id": "100",
+			"sections_fail": 70
+		}
+	]
+}

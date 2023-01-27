@@ -1,0 +1,735 @@
+{
+	"title": "furnitureQuery2",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"rooms_furniture": "*Tables*"
+					}
+				},
+				{
+					"IS": {
+						"rooms_type": "Small Group"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_furniture",
+				"rooms_type",
+				"rooms_shortname"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"rooms_shortname"
+				]
+			}
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "WOOD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "UCLL"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SPPH"
+		},
+		{
+			"rooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SPPH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SPPH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SPPH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SPPH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SOWK"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SOWK"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SOWK"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "SCRF"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PCOH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PCOH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PCOH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "PCOH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "OSBO"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCML"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MCLD"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "MATH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "LASR"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "LASR"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "HENN"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "HENN"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "HENN"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "GEOG"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "GEOG"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FSC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FSC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FSC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FSC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FSC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FSC"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FORW"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FORW"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "FNH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "DMP"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "DMP"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "CEME"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "CEME"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BIOL"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "BIOL"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "AUDX"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "AUDX"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "ANSO"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "ANSO"
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "ANSO"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "ANGU"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "ANGU"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "ANGU"
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"rooms_type": "Small Group",
+			"rooms_shortname": "ANGU"
+		}
+	]
+}
